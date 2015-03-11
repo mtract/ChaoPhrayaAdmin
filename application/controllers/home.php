@@ -22,18 +22,7 @@ class home extends CI_Controller {
 		$this->load->view('hp');
 	}
 
-	public function pier_editdb()
-	{
-		if ($this->ion_auth->in_group('admin')) $this->load->view('pier_editdb');
-		else redirect('', 'refresh');
-		//$this->load->view('pier_editdb');
-	}
-	public function nearby_editdb()
-	{
-		if ($this->ion_auth->in_group('admin')) $this->load->view('nearby_editdb');
-		else redirect('', 'refresh');
-		//$this->load->view('nearby_editdb');
-	}
+	
 	public function ads_editdb()
 	{
 		//open home page

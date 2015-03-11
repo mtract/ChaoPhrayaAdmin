@@ -17,10 +17,13 @@
       <link href="<?php echo base_url(); ?>assets/css/queries.css" rel="stylesheet">
       <link href="<?php echo base_url(); ?>assets/css/animate.css" rel="stylesheet">
 
+
       <!-- Push & slide css -->
       <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/default.css" />
-      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/component.css" />
       <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/edit_butt.css" />
+      <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/css/components.css" />
+
+
 
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,8 +38,6 @@
           <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
               
               <h3>Menu</h3>
-              <?php echo anchor('pier_editdb', 'Pier Database') ?>
-              <?php echo anchor('nearby_editdb', 'Nearby Places Database') ?>
               <?php echo anchor('ads_editdb', 'Advertisement Database') ?>
           </nav>
 

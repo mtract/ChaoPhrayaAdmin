@@ -40,8 +40,6 @@
 
 $route['default_controller'] = "home";
 $route['auth']="auth";
-$route['pier_editdb'] = "home/pier_editdb";
-$route['nearby_editdb'] = "home/nearby_editdb";
 $route['ads_editdb'] = "home/ads_editdb";
 $route['404_override'] = '';
 
